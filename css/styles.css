@@ -1,0 +1,196 @@
+/* play-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/play-v19-latin-regular.woff2) format('woff2'); 
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/play-v19-latin-700.woff2) format('woff2'); 
+}
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./fonts/roboto-v30-latin-regular.woff2) format('woff2');    
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./fonts/roboto-v30-latin-700.woff2) format('woff2'); 
+}
+:root{
+--beauty-landing-2-background:#FFFFFF;
+--beauty-landing-2-c1:#011C44;
+--beauty-landing-2-2: #2B7FFF;
+--color-secondary-1: #4A4A4A;
+--color-secondary-2: #747272;
+--color-secondary-3: #011F4A;
+--color-secondary-4: #FFD02B;
+
+
+}
+
+/* Base */
+body {
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  
+}
+
+/* Hero section */
+.hero-title {
+    color: var(--beauty-landing-2-c1);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.hero-title h5{
+    font-size: 18px;
+}
+.hero-title h1{
+    color: var(--beauty-landing-2-2);
+    font-family: Play;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114px; /* 81.429% */
+    text-transform: capitalize;
+}
+    
+    
+/* Button */
+.button {
+  color: var(--beauty-landing-2-background, #FFF);
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 32px;
+  background: var(--beauty-landing-2-2, #2B7FFF);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.button:hover {
+  color: var(--beauty-landing-2-c1, #011C44);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 32px;
+  border: 2px solid #2B7FFF;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  }
+
+ul {
+    list-style-type: none;
+    
+}
+address {
+    font-style: normal;
+}
+
+/* Link */
+.link {
+    color: var(--beauty-landing-2-c1);
+    text-decoration: none;
+}
+.about-us-link {
+     color: var(--beauty-landing-2-2);
+}
+.social-link {
+    color: var(--beauty-landing-2-2);
+    text-decoration: none;
+}
+
+/* Section title  */
+.section-title {
+    color: var(--beauty-landing-2-c1);
+    font-family: Play; 
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.16;
+    
+}
+.section-title span{
+  color: var(--beauty-landing-2-2, #2B7FFF);
+font-style: normal;
+}
+
+
+/* about-us-section */
+
+.about-us-section {
+    color: var(--beauty-landing-2-c1);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.about-us-section h1{
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.about-us-section .brand {
+  color: var(--beauty-landing-2-2, #2B7FFF);
+    font-family: Play;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.about-us-section .capitalize{
+    font-weight: 600;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+/* why-us-section  */
+
+.why-us-section {
+    color: var(--beauty-landing-2-c1);
+}
+ /* Our procedures section  */
+
+ .our-procedures-section {
+    color: var(--beauty-landing-2-background);
+    font-family: Roboto;
+    font-size: 22px;
+ }
+
+ footer a{
+    color: var(--beauty-landing-2-background, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+ }
+.address-copyright{
+  color: var(--beauty-landing-2-5, #747272);
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
